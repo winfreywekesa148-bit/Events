@@ -1,0 +1,5 @@
+var attendeeId = "T001";
+var name = "Alice Smith";
+var event = "JavaScript Conference";
+var ticketType = "VIP";
+var ticketPrice = 150.00;
