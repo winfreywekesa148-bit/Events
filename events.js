@@ -9,3 +9,8 @@ function logAttendanceName(attendeeId) {
     console.log("Name: " + attendeeId);
 
 }
+
+// logTicketPrice
+function logTicketPrice(attendeeId) {
+    console.log("ticketPrice: " + attendeeId);
+}
