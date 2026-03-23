@@ -24,3 +24,9 @@ function updateTicketType(attendeeId, newTicketType) {
 function updateTicketPrice(attendeeId, newTicketPrice) {
     console.log("updateTicketPrice: " + attendeeId + ", " + newTicketPrice);
 }
+
+// removalEventProperty
+function removalEventProperty(attendeeId) {
+    console.log("removalEventProprty: " + attendeeId);
+    
+}
