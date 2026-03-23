@@ -11,11 +11,16 @@ function logAttendanceName(attendeeId) {
 }
 
 // logTicketPrice
-function logTicketPrice(attendeeId) {
+function logTicketPrice(attendeeId, ticketPrice) {
     console.log("ticketPrice: " + attendeeId + ", " + ticketPrice);
 }
 
 // updateTicketType
 function updateTicketType(attendeeId, newTicketType) {
     console.log("updateTicketType: " + attendeeId + ", " + newTicketType);
+}
+
+// updateTicketPrice
+function updateTicketPrice(attendeeId, newTicketPrice) {
+    console.log("updateTicketPrice: " + attendeeId + ", " + newTicketPrice);
 }
